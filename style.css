@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(to bottom right, #6dd5ed, #2193b0);
+    background: linear-gradient(to bottom right, #eebc24, #55490c);
     color: #fff;
 }
 
@@ -40,7 +40,7 @@ section {
 }
 
 section h2, section h3, section h4, section h5, section h6 {
-    color: #ffd700;
+    color: #00fff7;
     font-weight: bold;
 }
 
@@ -68,5 +68,5 @@ footer {
     color: #fff;
     margin-top: 20px;
     font-size: 0.9rem;
-    border-top: 2px solid #ffd700;
+    border-top: 2px solid #00eaff;
 }
