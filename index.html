@@ -3,37 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>japanese Ramen</title>
-    <link rel="stylesheet" href="style.css"
+    <title>Japanese Ramen Ingredients</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+
+        .ingredient {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .ingredient:hover {
+            transform: scale(1.05);
+        }
+
+        .ingredient img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .ingredient h3 {
+            margin: 0;
+            padding: 1rem;
+            background-color: #ffcc00;
+            color: #333;
+            font-size: 1.2rem;
+        }
+
+        .ingredient p {
+            padding: 0 1rem 1rem;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Japanese Ramen</h1>
-    </header>
-    <main>
-        <section class="about">
-            <h2>Japan boast a rich and diverse ramen culture, with each region offering its own unique flavorrs and styles. </h2>
-            <p>Each of these establishments offers a unique taste of Japan's rich ramen culture, reflecting regional ingredients and  individual craftmanship.</p>
-        </section>
-        <section class="education">
-            <h3>Nakiryu</h3>
-            <h4>Signature dish: Tantanmen </h4>
-            <p>Locatin: 2 Chome-34-4 Minamiootsuka, Toshima City, Tokyo 170-0005, Japan</p>
-        </section>
-        <section class="experience">
-            <h5>Code Experience</h5>
-            <p>Zero</p>
-        </section>
-        <section class="favorites">
-            <h6>Favorite Website</h6>
-            <p>Don't have one yet</p>
-        </section>
-        <section class="image">
-            <img src="img/water.jpeg" alt="A scenic image of water">
-        </section>
-    </main>
-    <footer>
-        <p>Created by Conner Baek | 2025</p>
-    </footer>
+
+<header>
+    <h1>Japanese Ramen Ingredients</h1>
+</header>
+
+<main>
+    <div class="ingredient">
+        <img src="https://via.placeholder.com/250" alt="Noodles">
+        <h3>Noodles</h3>
+        <p>Made from wheat flour, water, and kansui, these noodles are the base of any ramen bowl.</p>
+    </div>
+    <div class="ingredient">
+        <img src="https://via.placeholder.com/250" alt="Broth">
+        <h3>Broth</h3>
+        <p>Flavors include shoyu (soy sauce), miso, shio (salt), or tonkotsu (pork bone).</p>
+    </div>
+    <div class="ingredient">
+        <img src="https://via.placeholder.com/250" alt="Chashu">
+        <h3>Chashu</h3>
+        <p>Braised or roasted pork slices that melt in your mouth.</p>
+    </div>
+    <div class="ingredient">
+        <img src="https://via.placeholder.com/250" alt="Menma">
+        <h3>Menma</h3>
+        <p>Fermented bamboo shoots, adding a crunchy texture.</p>
+    </div>
+    <div class="ingredient">
+        <img src="https://via.placeholder.com/250" alt="Ajitsuke Tamago">
+        <h3>Ajitsuke Tamago</h3>
+        <p>Marinated soft-boiled eggs with a flavorful yolk.</p>
+    </div>
+    <div class="ingredient">
+        <img src="https://via.placeholder.com/250" alt="Nori">
+        <h3>Nori</h3>
+        <p>Sheets of dried seaweed for added umami and texture.</p>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Japanese Ramen Ingredients. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
