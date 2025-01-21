@@ -1,113 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Ramen Ingredients</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color: #ffcc00;
-            color: #333;
-            text-align: center;
-            padding: 1rem 0;
-        }
-
-        main {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            padding: 2rem;
-        }
-
-        .ingredient {
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            overflow: hidden;
-            background-color: #fff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s;
-        }
-
-        .ingredient:hover {
-            transform: scale(1.05);
-        }
-
-        .ingredient img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .ingredient h3 {
-            margin: 0;
-            padding: 1rem;
-            background-color: #ffcc00;
-            color: #333;
-            font-size: 1.2rem;
-        }
-
-        .ingredient p {
-            padding: 0 1rem 1rem;
-            color: #555;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: #fff;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramen Ingredients</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header>
+  <header class="header">
     <h1>Japanese Ramen Ingredients</h1>
-</header>
-
-<main>
-    <div class="ingredient">
-        <img src="https://via.placeholder.com/250" alt="Noodles">
-        <h3>Noodles</h3>
-        <p>Made from wheat flour, water, and kansui, these noodles are the base of any ramen bowl.</p>
-    </div>
-    <div class="ingredient">
-        <img src="https://via.placeholder.com/250" alt="Broth">
-        <h3>Broth</h3>
-        <p>Flavors include shoyu (soy sauce), miso, shio (salt), or tonkotsu (pork bone).</p>
-    </div>
-    <div class="ingredient">
-        <img src="https://via.placeholder.com/250" alt="Chashu">
-        <h3>Chashu</h3>
-        <p>Braised or roasted pork slices that melt in your mouth.</p>
-    </div>
-    <div class="ingredient">
-        <img src="https://via.placeholder.com/250" alt="Menma">
-        <h3>Menma</h3>
-        <p>Fermented bamboo shoots, adding a crunchy texture.</p>
-    </div>
-    <div class="ingredient">
-        <img src="https://via.placeholder.com/250" alt="Ajitsuke Tamago">
-        <h3>Ajitsuke Tamago</h3>
-        <p>Marinated soft-boiled eggs with a flavorful yolk.</p>
-    </div>
-    <div class="ingredient">
-        <img src="https://via.placeholder.com/250" alt="Nori">
-        <h3>Nori</h3>
-        <p>Sheets of dried seaweed for added umami and texture.</p>
-    </div>
-</main>
-
-<footer>
-    <p>&copy; 2025 Japanese Ramen Ingredients. All Rights Reserved.</p>
-</footer>
-
+  </header>
+  <main class="main">
+    <section class="ingredients">
+      <h2>Key Ingredients</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>Noodles</h3>
+          <p>Fresh, chewy noodles made from wheat flour, water, and kansui.</p>
+        </div>
+        <div class="item">
+          <h3>Broth</h3>
+          <p>Rich base made from pork bones, chicken, seafood, or miso.</p>
+        </div>
+        <div class="item">
+          <h3>Chashu</h3>
+          <p>Slow-cooked pork belly or shoulder, tender and flavorful.</p>
+        </div>
+        <div class="item">
+          <h3>Menma</h3>
+          <p>Fermented bamboo shoots with a crunchy texture.</p>
+        </div>
+        <div class="item">
+          <h3>Egg</h3>
+          <p>Soft-boiled egg marinated in soy sauce, often called ajitsuke tamago.</p>
+        </div>
+        <div class="item">
+          <h3>Green Onions</h3>
+          <p>Freshly chopped green onions for a crisp, aromatic garnish.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2025 Ramen Enthusiasts</p>
+  </footer>
 </body>
 </html>
